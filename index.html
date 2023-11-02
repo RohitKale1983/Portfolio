@@ -1,136 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohit's Portfolio</title>
-    <link rel="icon" href="https://image.similarpng.com/very-thumbnail/2021/09/Letter-R-logo-design-on-transparent-background-PNG.png" type="image/x-icon">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit's Portfolio</title>
+  <link rel="icon" href="https://image.similarpng.com/very-thumbnail/2021/09/Letter-R-logo-design-on-transparent-background-PNG.png" type="image/x-icon">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header>
-      <div class="header">
-        <a href="index.html">
-          <img
-            src="./assets/r-logo.png"
-            class="logo" />
-        </a>
-        <ul class="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="intro">
-      <div class="intro-h">
-        <h1>About Me</h1>
-        <p><a href="index.html">Home</a> <i class="fa fa-arrow-right"></i> <a href="about.html">About</a></p>
-      </div>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header">
+      <a href="index.html">
+        <img src="./assets/r-logo.png" class="logo">
+      </a>
+      <ul class="nav" id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">☰</button>
     </div>
-    <div class="personal">
-      <div class="personal-pic">
-        <img
-          src="./assets/profile-pic.png" />
-      </div>
-      <div class="personal-info">
-        <h3>ABOUT ME</h3>
-        <h2>PERSONAL DETAILS</h2>
-        <p>
-          I am Rohit Kale, a dedicated student currently pursuing a Bachelor's degree in Electronics & Telecommunication Engineering. My educational journey has been a thrilling exploration of technology, innovation, and personal growth. I'm passionate about staying on the cutting edge of advancements in the electronics and telecommunications field. Problem-solving, teamwork, and effective communication are skills I value and continue to refine. Beyond academics, I enjoy taking on creative projects, staying abreast of industry trends, and embracing new challenges. I believe in the power of education and lifelong learning to shape a brighter future.
-        </p>
-      </div>
+  </header>
+  <div class="sider" id="sider">
+      <ul  id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <div>
-      <h1>My Qualifications</h1>
-    </div>
-    <div class="qualifications">
-      <div class="edu-card">
-        <div class="edu-logo">
-          <img src="https://www.adscientificindex.com/logos/7423.jpg" />
-        </div>
-        <div class="edu-info">
-          <div class="edu-head">
-            <div class="title">
-              S. M. JOSHI COLLEGE, HADAPSAR, PUNE
-              <div style="font-size: 15px; font-weight: 600">2019-21</div>
-            </div>
-            <div class="subtitle">HSC</div>
-          </div>
-          <div class="edu-body">
-            <ul>
-              <li>Percentage: 85%</li>
-            </ul>
-          </div>
-        </div>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- About Section -->
+    <section class="about">
+      <div class="info">
+        <h3>This is Me</h3>
+        <h1>Rohit Kale</h1>
+        <p>I am currently a bachelor student at Savitribai Phule University</p>
+        <button><i class="fa fa-download"></i> Download Resume</button>
       </div>
-      <div class="edu-card">
-        <div class="edu-logo">
-          <img src="https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/20221227164526.png?v=20221227164526" />
+      <div class="pic">
+        <img src="./assets/profile-pic.png">
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div class="skills" id="skills">
+      <h1>My Skills</h1>
+      <div class="skill">
+        <div class="card">
+          <img src="https://static.vecteezy.com/system/resources/previews/012/697/299/original/stylized-3d-html-logo-design-free-png.png" class="skill-logo">
+          <h3>HTML</h3>
         </div>
-        <div class="edu-info">
-          <div class="edu-head">
-            <div class="title">
-              Trinity College of Engineering And Research
-              <div style="font-size: 15px; font-weight: 600">2021-present</div>
-            </div>
-            <div class="subtitle">B.Tech. in Electronics and Telecommunication</div>
-          </div>
-          <div class="edu-body">
-            <ul>
-              <li>CGPA:9.59 </li>
-            </ul>
-          </div>
+        <div class="card">
+          <img src="https://static.vecteezy.com/system/resources/previews/011/665/094/non_2x/stylized-3d-css-icon-side-view-free-png.png" class="skill-logo">
+          <h3>CSS</h3>
+        </div>
+        <div class="card">
+          <img src="https://static.vecteezy.com/system/resources/previews/012/697/298/original/3d-javascript-logo-design-free-png.png" class="skill-logo">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="card">
+          <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-c-language-logo-6563484-5453029.png" class="skill-logo">
+          <h3>C++</h3>
         </div>
       </div>
     </div>
-    <div>
-      <h1>Certifications</h1>
-    <div class="cert">
-      <a href="https://www.cloudskillsboost.google/public_profiles/b71031a9-3e96-4424-bee5-2b98de821874/badges/4841608" target="_blank">
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo-700x394.png"/>
-          </div>
-          <div class="cert-info">
-            <div class="cert-name">Introduction to Genrative AI</div>
-            <div class="cert-own">- Qwiklabs </div>
-            </div>
-          </div>
-          </a>
-          <a href="https://freecodecamp.org/certification/Rohit_Kale/responsive-web-design" target="_blank">
-        <div class="cert-card">
-          <div class="cert-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png"/>
-            </div>
-            <div class="cert-info">
-              <div class="cert-name">Responsive web design</div>
-              <div class="cert-own">- freeCodeCamp </div>
+
+    <!-- Projects Section -->
+    <div class="Projects" id="project">
+      <h1>My Projects</h1>
+      <div class="project">
+        <div class="p-card">
+          <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" class="p-logo">
+          <a href="https://rohitkale1983.github.io/ENTC/"  target="_blank"><img class="overlay-image" src="./assets/p-logo.png" alt="Overlay Image"></a>
+          <h3>Department website</h3>
+        </div>
+        <div class="p-card">
+          <img src="https://blog.ipleaders.in/wp-content/uploads/2019/11/foodmitho.jpg" class="p-logo">
+          <a href=""><img class="overlay-image" src="./assets/p-logo.png" alt="Overlay Image"></a>
+          <h3>Food Delivery App</h3>
+        </div>
+        <div class="p-card">
+          <img src="https://techcrunch.com/wp-content/uploads/2021/02/alexander-shatov-JlO3-oY5ZlQ-unsplash.jpg?w=1390&crop=1" class="p-logo">
+          <a href=""><img class="overlay-image" src="./assets/p-logo.png" alt="Overlay Image"></a>
+          <h3>Spotify Clone</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+      <div class="add">
+        <h1>Lets get in touch</h1>
+        <div style="padding-bottom: 20px">
+          <p>We're open for any suggestion or just to have a chat</p>
+        </div>
+        <div style="display: flex">
+          <i class="fa-solid fa-location-dot icon"></i>
+          <p><span>Address:</span> Pune, Maharashtra</p>
+        </div>
+        <div style="display: flex">
+          <i class="fa-solid fa-phone icon"></i>
+          <p><span>Phone:</span> 9422503377</p>
+        </div>
+        <div style="display: flex">
+          <i class="fa-regular fa-envelope icon"></i>
+          <p><span>Email:</span> rohitrbk2003@gmail.com</p>
+        </div>
+        <div style="display: flex">
+          <i class="fa-solid fa-globe icon"></i>
+          <p><span>Website:</span> site.com</p>
+        </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/rohit-kale-280244226/" id="linkedin"><i class="fa-brands fa-linkedin icon" ></i></a>
+          <a href="https://www.instagram.com/rohitkale_1983/" id="instagram"><i class="fa-brands fa-instagram icon"></i></a>
+          <a href="" id="github"><i class="fa-brands fa-github icon"></i></a>
+          <a href="" id="discord"><i class="fa-brands fa-discord icon"></i></a>
+        </div>
+      </div>
+      <div class="form">
+        <h1>Get in Touch</h1>
+        <div class="form-container">
+          <form action="https://formsubmit.co/engineeringnotes318@gmail.com" method="POST" >
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
               </div>
-          </div>
-          </a>
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo-700x394.png"/>
+              <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
               </div>
-              <div class="cert-info">
-                <div class="cert-name">ML on GCP</div>
-                <div class="cert-own">- Qwiklabs </div>
-                </div>
             </div>
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <footer>
-      <p>Made with &#128151 By Rohit Kale</p>
-    </footer>
-  </body>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Made with &#128151 By Rohit Kale</p>
+  </footer>
+  
+  <!-- HTML !-->
+  <!-- JavaScript Script -->
+  <script src="app.js"></script>
+</body>
 </html>
