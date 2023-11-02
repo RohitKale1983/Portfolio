@@ -438,7 +438,7 @@ footer p {
     flex-direction: column;
    position: relative;
    box-sizing: border-box; 
-   margin-bottom: 270px;
+   margin-bottom: 380px;
   }
 }
 @media (max-width: 768px) {
